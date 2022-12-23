@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 200px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+#task-input {
+    margin-left: 20px;
+}
+
+#task-list {
+    padding: 20px;
+    list-style: none;
+    max-width: 500px;
+}
+
+.task-item {
+    /* margin-bottom: 20px; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
